@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VantaForge Enterprise Experience</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header class="top-nav">
+        <div class="logo">VantaForge</div>
+        <nav>
+          <a href="#overview">Overview</a>
+          <a href="#platform">Platform</a>
+          <a href="#solutions">Solutions</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <button class="cta">Request demo</button>
+      </header>
+
+      <main>
+        <section class="hero" id="overview">
+          <div class="hero-copy">
+            <div class="pill">Phase 01 · Enterprise Genesis</div>
+            <h1>
+              Build immersive
+              <span>web3 enterprise</span>
+              transitions
+            </h1>
+            <p>
+              VantaForge blends WebGL, procedural 3D modeling, and cinematic motion design to
+              create a digital command center for global enterprises.
+            </p>
+            <div class="hero-actions">
+              <button class="primary">Launch experience</button>
+              <button class="ghost">Watch the build</button>
+            </div>
+          </div>
+          <div class="hero-stats">
+            <div>
+              <span class="stat">99.98%</span>
+              <span class="label">uptime guarantee</span>
+            </div>
+            <div>
+              <span class="stat">45ms</span>
+              <span class="label">interaction latency</span>
+            </div>
+            <div>
+              <span class="stat">120+</span>
+              <span class="label">enterprise nodes</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="feature" id="platform">
+          <div class="feature-copy">
+            <div class="pill">Phase 02 · Quantum Flow</div>
+            <h2>Lend, orchestrate, and visualize enterprise assets</h2>
+            <p>
+              Interactive 3D models respond to cursor flow, simulating asset movement,
+              orchestration, and governance in real time.
+            </p>
+          </div>
+          <div class="feature-panels">
+            <div class="panel">
+              <h3>Adaptive infrastructure</h3>
+              <p>Autonomous scaling and elastic pipelines with smooth motion-state transitions.</p>
+            </div>
+            <div class="panel">
+              <h3>Secure composability</h3>
+              <p>Encrypted interop and volumetric visualizations of enterprise data flows.</p>
+            </div>
+            <div class="panel">
+              <h3>Predictive telemetry</h3>
+              <p>Real-time physics-driven analytics rendered in WebGL.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="feature alt" id="solutions">
+          <div class="feature-copy">
+            <div class="pill">Phase 03 · Aurora Mesh</div>
+            <h2>Forge multi-sensory digital cities</h2>
+            <p>
+              Layered parallax, animated gradients, and cinematic lighting guide users through
+              enterprise-scale 3D ecosystems.
+            </p>
+          </div>
+          <div class="feature-panels">
+            <div class="panel">
+              <h3>Immersive onboarding</h3>
+              <p>Guided WebGL scenes introduce teams to your platform in seconds.</p>
+            </div>
+            <div class="panel">
+              <h3>Gesture-ready control</h3>
+              <p>Track cursor movement, scroll velocity, and touch for adaptive experiences.</p>
+            </div>
+            <div class="panel">
+              <h3>Cloud-first delivery</h3>
+              <p>Edge-distributed rendering keeps every frame crisp and fast.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="contact" id="contact">
+          <div class="contact-card">
+            <div>
+              <div class="pill">Phase 04 · Ascension</div>
+              <h2>Ready to transition your enterprise?</h2>
+              <p>
+                Align your brand with cinematic 3D storytelling, dynamic interactions, and
+                WebGL-driven performance.
+              </p>
+            </div>
+            <button class="primary">Schedule a strategy call</button>
+          </div>
+        </section>
+      </main>
+
+      <canvas id="webgl"></canvas>
+      <div class="gradient-overlay"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/three@0.155.0/build/three.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
